@@ -1,5 +1,6 @@
 ## Agenda
 - Datalab overview
+- Pricing
 - Exercises
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-integrated.svg)
