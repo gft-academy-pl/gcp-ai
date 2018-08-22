@@ -17,7 +17,9 @@ There is no charge for using Google Cloud Datalab. However, you do pay for any G
 ```
 datalab delete --delete-disk instance-name
 ```
-
+* Storage resources: Notebooks are saved to Persistent Disk and backed up to Google Cloud Storage
+* Data Analysis Services: You incur Google BigQuery costs when issuing SQL queries. Also, when you use Google Cloud Machine Learning, you may incur Cloud Machine Learning Engine and/or Google Cloud Dataflow charges.
+* Other resources: You may incur costs for other API requests you make within the Cloud Datalab notebook environment. 
 ## Datalab exercises
 ```
  delete 
