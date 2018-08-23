@@ -1,12 +1,13 @@
 ## Agenda
 - Datalab overview
+- Key concepts & components
 - Pricing
-- Exercises
+- Cloud Datalab setup
+- Troubleshooting
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-integrated.svg)
 
-# Datalab overview
-## Data Exploration
+## Datalab overview
 Cloud Datalab is a powerful interactive tool created to explore, analyze, transform and visualize data and build machine learning models on Google Cloud Platform. It runs on Google Compute Engine and connects to multiple cloud services easily so you can focus on your data science tasks.
 ## Key concepts & components
 Cloud Datalab is packaged as a container and run in a VM (Virtual Machine) instance.
