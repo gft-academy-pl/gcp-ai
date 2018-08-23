@@ -8,8 +8,12 @@
 # Datalab overview
 ## Data Exploration
 Cloud Datalab is a powerful interactive tool created to explore, analyze, transform and visualize data and build machine learning models on Google Cloud Platform. It runs on Google Compute Engine and connects to multiple cloud services easily so you can focus on your data science tasks.
-## Integrated & Open Source
-Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are documents which contain both computer code (Python, SQL, and JavaScript) and rich text elements (paragraph, equations, figures, links, etc…). Notebook documents are both human-readable documents containing the analysis description and the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
+## Key concepts & components
+Cloud Datalab is packaged as a container and run in a VM (Virtual Machine) instance.
+
+Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are documents which contain both computer code (Python, SQL, and JavaScript), documentation written as markdown, and the results of code execution (text, image or, HTML/JavaScript). This way Notebooks contains analysis description, the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
+
+Like a code editor or IDE, notebooks help you write code: they allow you to execute code in an interactive and iterative manner, rendering the results alongside the code. Further, when you share a notebook with team members, you can include code, markdown-formatted documentation, and results that include interactive charts, to provide them with context that goes beyond what Python or SQL code files alone can provide.
 
 Datalab notebooks simplifies data processing with Cloud BigQuery, Cloud Machine Learning Engine, Cloud Storage, and Stackdriver Monitoring. Authentication, cloud computation and source control are taken care of out-of-the-box.
 ## Pricing
