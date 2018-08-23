@@ -54,5 +54,5 @@ To stop the Cloud Datalab VM, click the account icon ![Diagram](https://github.c
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-server-vm-ui-about.png)
 
-When you install new Python library, kernel restart is required: in avove menu select **About Datalab**, then click the **Restart Server** option from the *About Google Cloud Datalab* dialog.
+When you install new Python library, kernel restart is required: in above menu select **About Datalab**, then click the **Restart Server** option from the *About Google Cloud Datalab* dialog.
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/restart-server.png)
