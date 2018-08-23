@@ -11,7 +11,7 @@ Cloud Datalab is a powerful interactive tool created to explore, analyze, transf
 ## Key concepts & components
 Cloud Datalab is packaged as a container and run in a VM (Virtual Machine) instance.
 
-Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are documents which contain both computer code (Python, SQL, and JavaScript), documentation written as markdown, and the results of code execution (text, image or, HTML/JavaScript). This way Notebooks contains analysis description, the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
+Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are documents which contain both computer code (Python, SQL, and JavaScript), documentation written as markdown, and the results of code execution (text, image or, HTML/JavaScript). This way Notebooks contain analysis description, the results (figures, tables, etc..) as well as executable documents which can be run to perform data analysis.
 
 Like a code editor or IDE, notebooks help you write code: they allow you to execute code in an interactive and iterative manner, rendering the results alongside the code. Further, when you share a notebook with team members, you can include code, markdown-formatted documentation, and results that include interactive charts, to provide them with context that goes beyond what Python or SQL code files alone can provide.
 
