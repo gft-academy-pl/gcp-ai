@@ -34,4 +34,5 @@ Run the following command to connect to a existing Cloud Datalab VM instance:
  datalab connect --zone zone-name --port 8081 instance-name 
 ```
 Open your browser to the Cloud Datalab home page by clicking the Web preview button ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview-button.png), and then selecting Change port→Port 8081.
+
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview.png)
