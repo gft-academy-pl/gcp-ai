@@ -42,6 +42,9 @@ When you create Datalab for the first time, it adds a datalab-notebooks [Cloud S
 The Cloud Datalab container includes ungit, a web-based git client, which allows you to make commits to the Cloud Datalab VM repo and push notebooks to the cloud remote repo from the Cloud Datalab browser UI.
 
 To open ungit on the Cloud Datalab /content/datalab/notebooks repo, select the repository icon in the right-top section of the Google Cloud Datalab menu bar.
+
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/ungit-icon.png)
+
 A browser window opens on the Cloud Datalab VM repo.
+
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/ungit-open-repo.png)
