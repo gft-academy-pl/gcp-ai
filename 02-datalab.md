@@ -45,7 +45,7 @@ Open your browser to the Cloud Datalab home page by clicking the Web preview but
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview.png)
 
-When you create Datalab for the first time, it adds a datalab-notebooks [Cloud Source Repository](https://console.cloud.google.com/code/develop/repo) in the project. This is a remote repository for the /content/datalab/notebooks git repository created in the docker container running in your Cloud Datalab VM instance.
+When you create Datalab for the first time, it adds a datalab-notebooks [Cloud Source Repository](https://console.cloud.google.com/code/develop/repo) in the project. This is a remote repository for the /content/datalab/notebooks git repository created in the docker container running in your Cloud Datalab VM instance. Notebooks are automatically saved to VM persistent disk periodically. To share your work with other users, you commit your changes using the git client to push your changes from this local workspace to the repository. 
 
 The Cloud Datalab container includes ungit, a web-based git client, which allows you to make commits to the Cloud Datalab VM repo and push notebooks to the cloud remote repo from the Cloud Datalab browser UI.
 
