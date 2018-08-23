@@ -38,7 +38,7 @@ Open your browser to the Cloud Datalab home page by clicking the Web preview but
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview.png)
 
 When you create Datalab for the first time, it adds a datalab-notebooks [Cloud Source Repository](https://console.cloud.google.com/code/develop/repo) in the project. This is a remote repository for the /content/datalab/notebooks git repository created in the docker container running in your Cloud Datalab VM instance.
-## Managing the lifecycle 
+
 The Cloud Datalab container includes ungit, a web-based git client, which allows you to make commits to the Cloud Datalab VM repo and push notebooks to the cloud remote repo from the Cloud Datalab browser UI.
 
 To open [ungit](https://cloud.google.com/datalab/docs/how-to/working-with-notebooks) on the Cloud Datalab /content/datalab/notebooks repo, select the repository icon in the right-top section of the Google Cloud Datalab menu bar.
@@ -48,3 +48,10 @@ To open [ungit](https://cloud.google.com/datalab/docs/how-to/working-with-notebo
 A browser window opens on the Cloud Datalab VM repo.
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/ungit-open-repo.png)
+
+## Troubleshooting
+To stop the Cloud Datalab VM, click the account icon ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/user-icon.png) in the top-right corner of the Cloud Datalab notebook, then click **Stop VM** button (VM will be automatically stopped after 90 minutes of inactivity). 
+![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-server-vm-ui-about.png)
+When you install new Python library, kernel restart is required: in avove menu select **About Datalab**,
+
+then click the **Restart Server** option from the *About Google Cloud Datalab* dialog.
