@@ -51,7 +51,8 @@ A browser window opens on the Cloud Datalab VM repo.
 
 ## Troubleshooting
 To stop the Cloud Datalab VM, click the account icon ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/user-icon.png) in the top-right corner of the Cloud Datalab notebook, then click **Stop VM** button (VM will be automatically stopped after 90 minutes of inactivity). 
-![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-server-vm-ui-about.png)
-When you install new Python library, kernel restart is required: in avove menu select **About Datalab**,
 
-then click the **Restart Server** option from the *About Google Cloud Datalab* dialog.
+![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/datalab-server-vm-ui-about.png)
+
+When you install new Python library, kernel restart is required: in avove menu select **About Datalab**, then click the **Restart Server** option from the *About Google Cloud Datalab* dialog.
+![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/restart-server.png)
