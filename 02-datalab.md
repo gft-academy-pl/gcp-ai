@@ -25,7 +25,7 @@ datalab delete --delete-disk instance-name
 * Data Analysis Services: You incur Google BigQuery costs when issuing SQL queries. Also, when you use Google Cloud Machine Learning, you may incur Cloud Machine Learning Engine and/or Google Cloud Dataflow charges.
 * Other resources: You may incur costs for other API requests you make within the Cloud Datalab notebook environment. 
 ## Cloud Datalab setup
-Cloud Datalab can be created either using Cloud SDK on your local machine or using Cloud Shell from Google Cloud Console. Run the following command to create a new Cloud Datalab VM instance:
+Cloud Datalab can be created either using Cloud SDK on your local machine or using [Cloud Shell](https://cloud.google.com/shell/docs/starting-cloud-shell#starting_a_new_session) from Google Cloud Console. Run the following command to create a new Cloud Datalab VM instance:
 ```
  datalab create --zone zone-name instance-name
 ```
