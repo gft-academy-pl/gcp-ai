@@ -14,11 +14,15 @@ Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are doc
 Datalab notebooks simplifies data processing with Cloud BigQuery, Cloud Machine Learning Engine, Cloud Storage, and Stackdriver Monitoring. Authentication, cloud computation and source control are taken care of out-of-the-box.
 ## Pricing
 There is no charge for using Google Cloud Datalab. However, you do pay for any Google Cloud Platform resources you use with Cloud Datalab, for example:
-* Compute resources: The default Cloud Datalab VM machine type is n1-standard-1. You are also charged for a 20GB VM Boot Disk +  200GB Standard Persistent Disk, where user notebooks are stored. 200GB disk remains after the deletion of the VM until you delete it. The following command deletes the VM instance and 20GB boot disk as well as the 200GB user notebook disk.
+* Compute resources: Datalab is free however you incur costs of VM machine (default type type is n1-standard-1). You can minimize costs by stopping VM instances when you are not using them. 
+```
+datalab stop instance-name
+```
+* Storage resources: Notebooks are saved to Persistent Disk and backed up to Google Cloud Storage
+You are also charged for a 20GB VM Boot Disk +  200GB Standard Persistent Disk, where user notebooks are stored. 200GB disk remains after the deletion of the VM until you delete it. The following command deletes the VM instance and 20GB boot disk as well as the 200GB user notebook disk.
 ```
 datalab delete --delete-disk instance-name
 ```
-* Storage resources: Notebooks are saved to Persistent Disk and backed up to Google Cloud Storage
 * Data Analysis Services: You incur Google BigQuery costs when issuing SQL queries. Also, when you use Google Cloud Machine Learning, you may incur Cloud Machine Learning Engine and/or Google Cloud Dataflow charges.
 * Other resources: You may incur costs for other API requests you make within the Cloud Datalab notebook environment. 
 ## Datalab exercises
