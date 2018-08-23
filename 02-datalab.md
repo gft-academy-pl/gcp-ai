@@ -29,6 +29,10 @@ Cloud Datalab can be created either using Cloud SDK on your local machine or usi
 ```
  datalab create --zone zone-name instance-name
 ```
+e.g.
+```
+datalab create --zone europe-west4-a aiworkshop
+```
 Run the following command to connect to a existing Cloud Datalab VM instance:
 ```
  datalab connect --zone zone-name --port 8081 instance-name 
