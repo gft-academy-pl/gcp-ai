@@ -15,6 +15,8 @@ Cloud Datalab is built on Jupyter Notebook (formerly IPython). Notebooks are doc
 
 Like a code editor or IDE, notebooks help you write code: they allow you to execute code in an interactive and iterative manner, rendering the results alongside the code. Further, when you share a notebook with team members, you can include code, markdown-formatted documentation, and results that include interactive charts, to provide them with context that goes beyond what Python or SQL code files alone can provide.
 
+When you open a notebook, a backend “kernel” process is launched to manage the variables defined during the session and execute your notebook code. When the executed code accesses Google Cloud services such as BigQuery or Google Machine Learning Engine, it uses the service account available in the VM. Hence, the service account must be authorized to access the data or request the service. 
+
 Datalab notebooks simplifies data processing with Cloud BigQuery, Cloud Machine Learning Engine, Cloud Storage, and Stackdriver Monitoring. Authentication, cloud computation and source control are taken care of out-of-the-box.
 ## Pricing
 There is no charge for using Google Cloud Datalab. However, you do pay for any Google Cloud Platform resources you use with Cloud Datalab, for example:
