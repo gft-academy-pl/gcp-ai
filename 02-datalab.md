@@ -36,3 +36,5 @@ Run the following command to connect to a existing Cloud Datalab VM instance:
 Open your browser to the Cloud Datalab home page by clicking the Web preview button ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview-button.png), and then selecting Change port→Port 8081.
 
 ![Diagram](https://github.com/gft-academy-pl/gcp-ai/blob/master/assets/web-preview.png)
+
+When you create Datalab for the first time, it adds a datalab-notebooks [Cloud Source Repository](https://console.cloud.google.com/code/develop/repo) in the project (referred to, below, as the "cloud remote repo"). This is a remote repository for the /content/datalab/notebooks git repository created in the docker container running in your Cloud Datalab VM instance (referred to, below, as the "Cloud Datalab VM repo"). You can browse the cloud remote repo from the Google Cloud Platform Console Repositories page.
